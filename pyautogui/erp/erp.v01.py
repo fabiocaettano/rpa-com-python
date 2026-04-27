@@ -175,8 +175,8 @@ def executarRelatorioB():
 if __name__ == "__main__":
     pyautogui.PAUSE = 1.0        
     abrirAplicativo('firefox')    
-    informarUrl('https://erp.correios.com.br/jde/E1Menu.maf')
-    autenticarUsuario('89145747', '#caefla21')  
+    informarUrl('')
+    autenticarUsuario('', '')  
     # executar Repost
     navegarMenu('relatorio_a')    
     executarRelatorioA()
